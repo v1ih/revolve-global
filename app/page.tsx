@@ -14,7 +14,7 @@ export default function Home() {
   return <main>
     <Header />
     <section className="hero">
-      <img src="/revolve-device.png" alt="Dispositivo Orbit com o companheiro Mimo" className="hero-image" />
+      <img src="/revolve-global/revolve-device.png" alt="Dispositivo Orbit com o companheiro Mimo" className="hero-image" />
       <div className="hero-copy"><p className="eyebrow">SEU TEMPO, EM MOVIMENTO</p><h1>Menos lembretes.<br/>Mais presença.</h1><p>Orbit reúne seus compromissos em um dispositivo discreto e portátil. Mimo acompanha sua rotina com alertas simples, sem transformar o dia em mais uma tela.</p><div className="hero-actions"><Link href="/shop" className="button light">Conheça o Orbit <ArrowRight size={18}/></Link><a href="#como-funciona" className="text-link">Veja como funciona</a></div><div className="hero-proof"><span><Check/> 7 dias de bateria</span><span><Check/> Sincronização segura</span></div></div>
     </section>
 
