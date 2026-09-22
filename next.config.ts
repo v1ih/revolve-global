@@ -1,7 +1,15 @@
 import type { NextConfig } from "next";
 
+const repo = "revolve-global";
+
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  trailingSlash: true,
+  basePath: `/${repo}`,
+  assetPrefix: `/${repo}/`,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
